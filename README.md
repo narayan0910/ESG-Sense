@@ -64,5 +64,12 @@ A web application that aggregates ESG-related news about companies and uses AI t
 └── docs/            # Project Documentation
 ```
 
+## Demo Video
+Watch the application walkthrough here: [Project Demo Video](https://drive.google.com/file/d/1ejJEbZeP8ETxsnN1XL5YLfrtPjPhRfIM/view?usp=sharing)
+
+## Documentation
+- [Problem Statement](docs/PROBLEM_STATEMENT.md)
+- [AI Usage Report](docs/AI_USAGE_REPORT.md)
+
 ## AI Implementation Details
 See `docs/AI_USAGE_REPORT.md` for details on how the sentiment analysis and categorization logic works.
