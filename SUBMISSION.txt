@@ -1,0 +1,18 @@
+ESG News Analyzer & Sentiment Tracker
+Submission by: [Your Name/ID]
+
+GitHub Repository: [Link to GitHub Repo]
+Video Demo: [Link to Video Demo]
+
+Included Files:
+- Source Code (client/ and server/)
+- Problem Statement: docs/PROBLEM_STATEMENT.md
+- AI Usage Report: docs/AI_USAGE_REPORT.md
+- README.md
+
+Instructions:
+1. Run `npm install` in both `server/` and `client/` directories.
+2. Run `node seed.js` in `server/` to initialize the database.
+3. Start backend: `node index.js` inside `server/`.
+4. Start frontend: `npm run dev` inside `client/`.
+5. Access via http://localhost:5173.
