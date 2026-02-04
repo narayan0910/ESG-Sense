@@ -2,7 +2,7 @@
 
 A web application that aggregates ESG-related news about companies and uses AI to analyze sentiment and categorize issues into Environmental, Social, or Governance categories.
 
-![Dashboard Preview](https://via.placeholder.com/800x400?text=ESG+Dashboard+Preview)
+![Dashboard Preview](client/public/esg.jpg)
 
 ## Features
 
@@ -15,8 +15,8 @@ A web application that aggregates ESG-related news about companies and uses AI t
 ## Tech Stack
 
 - **Frontend**: React (Vite), TailwindCSS, Chart.js, Lucide Icons
-- **Backend**: Node.js, Express
-- **Database**: SQLite (via better-sqlite3)
+- **Backend**: Node.js, Express (Serverless on Netlify)
+- **Database**: Mock Data / In-Memory Store (Deployment Ready)
 - **AI/NLP**: Heuristic-based text analysis engine (simulating LLM capabilities)
 
 ## getting Started
@@ -28,15 +28,14 @@ A web application that aggregates ESG-related news about companies and uses AI t
 
 1. **Clone the repository**
    ```bash
-   git clone <repository_url>
-   cd "PS Assignment 2"
+   git clone https://github.com/narayan0910/ESG-Sense.git
+   cd ESG-Sense
    ```
 
 2. **Setup Backend**
    ```bash
    cd server
    npm install
-   node seed.js  # Populate database with mock data
    node index.js # Start server on port 3000
    ```
 
@@ -59,9 +58,8 @@ A web application that aggregates ESG-related news about companies and uses AI t
 │   │   ├── components/
 │   │   ├── pages/
 │   │   └── services/
-├── server/          # Backend Express Application
-│   ├── esg.db       # SQLite Database file
-│   ├── seed.js      # Data Seeding Script
+│   ├── netlify/     # Netlify Functions (Backend logic)
+├── server/          # Local Backend (Mirror of Netlify logic)
 │   └── index.js     # Server Entry Point
 └── docs/            # Project Documentation
 ```
