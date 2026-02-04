@@ -1,8 +1,8 @@
 ESG News Analyzer & Sentiment Tracker
-Submission by: [Your Name/ID]
+Submission by: Shruti Bajpayee
 
-GitHub Repository: [Link to GitHub Repo]
-Video Demo: [Link to Video Demo]
+GitHub Repository: https://github.com/narayan0910/ESG-Sense
+Video Demo: https://drive.google.com/file/d/1ejJEbZeP8ETxsnN1XL5YLfrtPjPhRfIM/view?usp=drive_link
 
 Included Files:
 - Source Code (client/ and server/)
